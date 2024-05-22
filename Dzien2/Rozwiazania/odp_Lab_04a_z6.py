@@ -1,6 +1,5 @@
 
 # Zadanie 6
-
 def pierwsze_n(n):
     liczby_pierwsze = []  # pusta lista na przechowanie liczb pierwszych
     liczba = 2  # zaczynamy od 2, która jest najmniejszą liczbą pierwszą
@@ -8,7 +7,7 @@ def pierwsze_n(n):
     while len(liczby_pierwsze) < n:  # pętla wykonuje się dopóki nie znajdziemy n liczb pierwszych
         jest_pierwsza = True  # zakładamy na początku, że i jest liczbą pierwszą
 
-        liczba2 = pow(liczba, 0.5)    # pierwiastek kwadratowy z szukanej liczby
+        liczba2 = pow(liczba, 0.5)
 
         for p in liczby_pierwsze:  # sprawdzamy wszystkie już znalezione liczby pierwsze
             if p > liczba2:
@@ -25,13 +24,11 @@ def pierwsze_n(n):
 
     return liczby_pierwsze  # zwracamy znalezione liczby pierwsze
 
+
 def main():
     l_pier = pierwsze_n(9000)
     print(l_pier)
     print(len(l_pier))
-    
- # stałe
 
-PI=3.14
-EPS=33.33   
+
 main()
