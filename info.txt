@@ -22,3 +22,7 @@ https://docs.python.org/pl/3/library/functions.html
 https://code.visualstudio.com/Download
 
 https://www.jetbrains.com/pycharm/download/#section=windows
+
+
+GUI
+https://www.pythonguis.com/
